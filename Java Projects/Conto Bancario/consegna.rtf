@@ -1,0 +1,129 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fnil\fcharset0 LucidaGrande;
+\f3\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{circle\}}{\leveltext\leveltemplateid2\'01\uc0\u9702 ;}{\levelnumbers;}\fi-360\li1440\lin1440 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19280\viewh14960\viewkind0
+\deftab720
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b\fs24 \cf0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Gestione di un conto bancario
+\f1\b0 :\uc0\u8232 Specifiche:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Crea una classe astratta 
+\f3\fs26 ContoBancario
+\f1\fs24  con attributi come saldo e numero del conto.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implementa metodi astratti come 
+\f3\fs26 deposita(double importo)
+\f1\fs24  e 
+\f3\fs26 preleva(double importo)
+\f1\fs24  per gestire le transazioni finanziarie.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Crea sottoclassi come 
+\f3\fs26 ContoCorrente
+\f1\fs24  e 
+\f3\fs26 ContoSavings
+\f1\fs24  che estendono la classe 
+\f3\fs26 ContoBancario
+\f1\fs24 . Ogni sottoclasse pu\'f2 avere regole diverse per il deposito e il prelievo.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implementa un'interfaccia chiamata 
+\f3\fs26 Interessi
+\f1\fs24  con un metodo 
+\f3\fs26 calcolaInteressi()
+\f1\fs24  che calcola gli interessi su un conto bancario. Fai s\'ec che 
+\f3\fs26 ContoSavings
+\f1\fs24  implementi questa interfaccia.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Utilizza il polimorfismo per eseguire operazioni di deposito, prelievo e calcolo degli interessi su diverse istanze di conti bancari.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Gestione di clienti bancari
+\f1\b0 :\uc0\u8232 Specifiche:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Crea una classe 
+\f3\fs26 Cliente
+\f1\fs24  con attributi come nome, cognome e indirizzo.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Crea una classe astratta 
+\f3\fs26 ContoBancario
+\f1\fs24  (come nell'esercizio precedente) e una classe 
+\f3\fs26 Banca
+\f1\fs24  con un elenco di clienti e conti bancari.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implementa metodi per consentire a un cliente di aprire un nuovo conto, depositare, prelevare e visualizzare il saldo del suo conto.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Usa un'interfaccia 
+\f3\fs26 Transazioni
+\f1\fs24  che definisce metodi per eseguire transazioni su un conto bancario, come trasferire denaro tra conti.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Utilizza il polimorfismo per gestire transazioni e operazioni bancarie per i clienti.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sa240\partightenfactor0
+\ls1\ilvl0
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	3	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Calcolo del credito
+\f1\b0 :\uc0\u8232 Specifiche:\
+\pard\tx940\tx1440\pardeftab720\li1440\fi-1440\partightenfactor0
+\ls1\ilvl1\cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Crea una classe astratta 
+\f3\fs26 Richiedente
+\f1\fs24  con attributi come nome, reddito e punteggio di credito.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Implementa metodi astratti per calcolare l'idoneit\'e0 al credito, ad esempio 
+\f3\fs26 calcolaIdoneit\'e0Credito()
+\f1\fs24 .\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Crea sottoclassi come 
+\f3\fs26 ClienteRegolare
+\f1\fs24  e 
+\f3\fs26 ClienteVIP
+\f1\fs24  che estendono la classe 
+\f3\fs26 Richiedente
+\f1\fs24 . I clienti VIP possono avere requisiti di idoneit\'e0 diversi rispetto ai clienti regolari.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Crea un'interfaccia 
+\f3\fs26 OffertaCredito
+\f1\fs24  con metodi per offrire un determinato importo di credito e tasso di interesse.\
+\ls1\ilvl1\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	
+\f2 \uc0\u9702 
+\f1 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Utilizza il polimorfismo per determinare quali offerte di credito sono disponibili per i clienti in base al loro stato.\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \
+\
+}
