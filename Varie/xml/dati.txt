@@ -1,3 +1,0 @@
-Samsung;Galaxy s4;800
-Apple;IpHONE;3000
-Nokia;Lumia 550;200
