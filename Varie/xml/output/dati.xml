@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<prodotti>
+    <prodotto>
+        <marca>Samsung</marca>
+        <modello>Galaxy s4</modello>
+        <prezzo>800</prezzo>
+    </prodotto>
+    <prodotto>
+        <marca>Apple</marca>
+        <modello>IpHONE</modello>
+        <prezzo>3000</prezzo>
+    </prodotto>
+    <prodotto>
+        <marca>Nokia</marca>
+        <modello>Lumia 550</modello>
+        <prezzo>200</prezzo>
+    </prodotto>
+</prodotti>

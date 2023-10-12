@@ -1,0 +1,48 @@
+-- 1
+SELECT
+    NOME,
+    COGNOME
+FROM
+    CLIENTI
+WHERE
+    SALARIO > 3000;
+
+-- 2
+SELECT
+    COGNOME,
+    NOME
+FROM
+    CLIENTI
+WHERE
+    CITTA = 'rimini';
+
+-- 3
+SELECT
+    COGNOME,
+    NOME
+FROM
+    CLIENTI
+WHERE
+    CITTA = 'rimini'
+    AND SALARIO > 3000;
+
+-- 4
+SELECT
+    COGNOME,
+    NOME,
+    SALARIO
+FROM
+    CLIENTI
+WHERE
+    ETA BETWEEN 20 AND 35;
+
+-- 5
+SELECT
+    COGNOME,
+    NOME,
+    SALARIO
+FROM
+    CLIENTI
+WHERE
+    CITTA = 'rimini'
+    AND ETA NOT BETWEEN 20 AND 30;

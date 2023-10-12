@@ -1,0 +1,30 @@
+Specifiche di base per la creazione di un database relazionale in ambito bancario:
+Tabella "Cliente":
+    Campi: ID_Cliente, Nome, Cognome, DataNascita, Indirizzo
+
+Tabella "Conto":
+    Campi: Numero_Conto, Tipo_Conto, Saldo, Data_Apertura
+
+Tabella "Transazione":
+    Campi: ID_Transazione, Data_Transazione, Tipo_Transazione, Importo
+
+Tabella "Prestito":
+    Campi: ID_Prestito, Numero_Prestito, Importo_Prestito, Data_Concessione
+
+Tabella "Filiale":
+    Campi: ID_Filiale, Nome_Filiale, Indirizzo_Filiale, Telefono, Responsabile
+
+Tabella "Dipendente":
+    Campi: ID_Dipendente, Nome_Dipendente, Cognome_Dipendente, Ruolo
+
+Tabella "Bancomat":
+    Campi: Numero_Bancomat, Posizione, Data_Installazione
+
+Tabella "Investimento":
+    Campi: ID_Investimento, Tipo_Investimento, Importo_Investito, Data_Investimento
+
+Tabella "Cambio_Valuta":
+    Campi: ID_Cambio, Valuta_Origine, Valuta_Destinazione, Tasso_Cambio, Data_Cambio
+
+Tabella "Tasso_Interesse":
+    Campi: ID_Tasso, Tipo_Conto, Tasso_Annuo, Data_Inizio_Valenza, Data_Fine_Valenza

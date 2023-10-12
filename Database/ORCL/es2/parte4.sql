@@ -1,0 +1,43 @@
+-- 1
+SELECT
+    AVG(ETA)
+FROM
+    CLIENTI;
+
+-- 2
+SELECT
+    AVG(ETA),
+    CITTA
+FROM
+    CLIENTI
+GROUP BY
+    CITTA;
+
+-- 3
+SELECT
+    MAX(SALARIO)
+FROM
+    CLIENTI
+WHERE
+    CITTA = 'rimini';
+
+-- 4
+SELECT
+    CITTA,
+    COUNT(*),
+    AVG(ETA)
+FROM
+    CLIENTI
+GROUP BY
+    CITTA;
+
+-- 5
+SELECT
+    CITTA,
+    COUNT(*)
+FROM
+    CLIENTI
+GROUP BY
+    CITTA
+ORDER BY
+    COUNT(*) DESC;
